@@ -225,11 +225,35 @@ a img{border:0px;}
 	float:left;
 	margin-left:75px;
 }
+#connect .resume-div{
+	width:300px;
+	float:right;
+	margin-right:75px;
+	display:flex;
+	flex-direction:column;
+}
 #connect #social-footer #sm-links{margin-top:25px;}
 #connect #social-footer #sm-links li{
 	list-style:none;
 	float:left;
 	padding-right: 10px;
+}
+#connect #social-footer #resume li{
+	list-style:none;
+	float:left;
+	padding-right: 10px;
+	margin-top: 30px;
+}
+#connect #social-footer #resume li a{
+	font-size: 1rem
+}
+#connect #social-footer #resume li a.download {
+	text-indent:-9999px; 
+	display:block; 
+	width: 22px;
+	height: 22px; 
+	background:url(/images/download.png) no-repeat;
+	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
 #connect #social-footer #sm-links li a.github {
 	text-indent:-9999px; 
