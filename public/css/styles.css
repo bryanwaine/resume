@@ -72,6 +72,7 @@ a img{border:0px;}
 	background:url(/images/github-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#about #top-social .github:hover{filter:  brightness(0) invert(1);}
 
 #about #top-social .linkedin{
 	text-indent:-9999px; 
@@ -81,6 +82,7 @@ a img{border:0px;}
 	background:url(/images/linkedin-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#about #top-social .linkedin:hover{filter:  brightness(0) invert(1);}
 
 #about #top-social a.facebook{
 	text-indent:-9999px; 
@@ -91,6 +93,7 @@ a img{border:0px;}
 	background:url(/images/facebook-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#about #top-social .facebook:hover{filter:  brightness(0) invert(1);}
 
 #about #top-social a.instagram{
 	text-indent:-9999px; 
@@ -101,6 +104,7 @@ a img{border:0px;}
 	background:url(/images/instagram-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#about #top-social .instagram:hover{filter:  brightness(0) invert(1);}
 
 #about #top-social .twitter{
 	text-indent:-9999px; 
@@ -110,6 +114,7 @@ a img{border:0px;}
 	background:url(/images/twitter-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#about #top-social .twitter:hover{filter:  brightness(0) invert(1);}
 #about .content{overflow:auto;}
 #about .content p{
 	text-decoration: underline;
@@ -141,6 +146,12 @@ a img{border:0px;}
 	margin-left: 1.5em;
 	padding-left: 5px;
 }
+#experience .col h2{min-height: 70px}
+#experience .col a img{
+	padding: 5px;
+	transition: transform .2s; /* Animation */
+}
+#experience .col a img:hover{transform: scale(1.05);}
 
 #experience .content{overflow:auto;}
 #experience .content p.heading{
@@ -160,7 +171,7 @@ a img{border:0px;}
 	list-style:none;
 	float:left;
 	margin:0px 20px 15px 0px;
-	padding:0px;
+	padding:10px;
 }
 #work #work-thumbs li.last{margin:0px;}
 #work .work-img-div{
@@ -169,6 +180,10 @@ a img{border:0px;}
 }
 .work-img{
 	border-radius: 15px;
+	transition: transform .2s; /* Animation */
+}
+.work-img:hover {
+  transform: scale(1.05);
 }
 
 /****************************************************/
@@ -216,9 +231,10 @@ a img{border:0px;}
 	padding:0px 0px 5px 0px;
 	margin:10px 55px 0px 0px;
 	background:#222222;
-	color:#3b3b3b;
+	color:#6b6b6b;
 	font: 400 14px/16px 'Poppins', sans serif;
 }
+#connect #form input.submit:hover{color:#fff}
 
 #connect #social-footer{
 	width:300px;
@@ -255,6 +271,9 @@ a img{border:0px;}
 	background:url(/images/download.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#connect #social-footer #resume li a.download:hover{
+	filter: none
+}
 #connect #social-footer #sm-links li a.github {
 	text-indent:-9999px; 
 	display:block; 
@@ -262,6 +281,9 @@ a img{border:0px;}
 	height: 32px; 
 	background:url(/images/github-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
+}
+#connect #social-footer #sm-links li a.github:hover{
+	filter:  brightness(0) invert(1);
 }
 
 #connect #social-footer #sm-links li a.linkedin {
@@ -271,6 +293,9 @@ a img{border:0px;}
 	height: 32px; 
 	background:url(/images/linkedin-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
+}
+#connect #social-footer #sm-links li a.linkedin:hover{
+	filter:  brightness(0) invert(1);
 }
 
 #connect #social-footer #sm-links li a.facebook {
@@ -282,6 +307,9 @@ a img{border:0px;}
 	background:url(/images/facebook-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#connect #social-footer #sm-links li a.facebook:hover{
+	filter:  brightness(0) invert(1);
+}
 
 #connect #social-footer #sm-links li a.instagram {
 	text-indent:-9999px; 
@@ -292,6 +320,9 @@ a img{border:0px;}
 	background:url(/images/instagram-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
 }
+#connect #social-footer #sm-links li a.instagram:hover{
+	filter:  brightness(0) invert(1);
+}
 
 #connect #social-footer #sm-links li a.twitter {
 	text-indent:-9999px; 
@@ -300,6 +331,9 @@ a img{border:0px;}
 	height: 32px; 
 	background:url(/images/twitter-32x32.png) no-repeat;
 	filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%) hue-rotate(314deg) brightness(94%) contrast(96%);
+}
+#connect #social-footer #sm-links li a.twitter:hover{
+	filter:  brightness(0) invert(1);
 }
 
 /****************************************************/
