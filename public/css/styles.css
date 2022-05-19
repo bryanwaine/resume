@@ -1132,4 +1132,12 @@ margin: 100px 0 !important;
     filter: brightness(0) saturate(100%) invert(41%) sepia(22%) saturate(12%)
       hue-rotate(314deg) brightness(94%) contrast(96%);
   }
+
+  .download-resume {
+    font-size: 2rem !important;
+  }
+  .download-icon {
+   height: 3rem !important;
+   width: 3rem !important;
+  }
 }
