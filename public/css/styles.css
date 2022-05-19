@@ -856,13 +856,110 @@ a img {
   }
   #work .work-img-div {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
   }
   .work-img {
     border-radius: 20px;
     margin: 15px 0;
   }
+  .img1 {
+  border-radius: 16px;
+  background-image: url('/images/work/ahia.png');
+  height: 800px;
+  width: 800px;
+margin: 100px 0 !important;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.2s; /* Animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.5) !important;
+}
+.img2 {
+  border-radius: 16px;
+  background-image: url('/images/work/quick.png');
+  height: 800px;
+  width: 800px;
+margin: 100px 0 !important;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.2s; /* Animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.5) !important;
+}
+.img3 {
+  border-radius: 16px;
+  background-image: url('/images/work/chat.png');
+  height: 800px;
+  width: 800px;
+margin: 100px 0 !important;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.2s; /* Animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.5) !important;
+}
+.img4 {
+  border-radius: 16px;
+  background-image: url('/images/work/lms.png');
+  height: 800px;
+  width: 800px;
+margin: 100px 0 !important;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.2s; /* Animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.5) !important;
+}
+.img5 {
+  border-radius: 16px;
+  background-image: url('/images/work/phs.png');
+  height: 800px;
+  width: 800px;
+margin: 100px 0 !important;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.2s; /* Animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.5) !important;
+}
+.img6 {
+  border-radius: 16px;
+  background-image: url('/images/work/search.png');
+  height: 800px;
+  width: 800px;
+margin: 100px 0 !important;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.2s; /* Animation */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.5) !important;
+}
 
   .img-text:hover .img1-logo {
     width: 0;
